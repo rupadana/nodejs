@@ -1,0 +1,12 @@
+{
+  "name": "filesystem",
+  "version": "1.0.0",
+  "description": "Cara Menggunakan Modul File System untuk Baca Tulis File",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server" : "node index.js"
+  },
+  "author": "Rupadana",
+  "license": "ISC"
+}
