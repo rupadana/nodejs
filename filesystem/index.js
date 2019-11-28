@@ -4,8 +4,8 @@ var fs   = require("fs");
 http.createServer(function (request, response){
 
 	// Baca File
-	fs.readFile("index.html", (err, data) => {
-		if (err) throw err;
+	fs.readFile("index.html", (error, data) => {
+		if (error) throw error;
 
 		// kirim response
 		response.writeHead(200,{"Content-Type" : "text/html"});
